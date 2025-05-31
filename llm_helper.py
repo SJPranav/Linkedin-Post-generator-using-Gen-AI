@@ -7,7 +7,7 @@ llm = ChatGroq(groq_api_key=os.getenv("your groq key"), model_name="meta-llama/l
 
 
 if __name__ == "__main__":
-    response = llm.invoke("Two most important ingradient in samosa are ")
+    response = llm.invoke("Famous Cities in the World")
     print(response.content)
 
 
